@@ -1,0 +1,99 @@
+   Country   Age   Salary Purchased
+0   france  44.0  72000.0        No
+1    spain  27.0  48000.0       Yes
+2  germany  30.0  54000.0        No
+3    spain  38.0  61000.0        No
+4  germany  40.0      NaN       Yes
+5   france  35.0  58000.0       Yes
+6    spain   NaN  52000.0        No
+7   france  48.0  79000.0       Yes
+8  germany  50.0  63000.0        No
+9   france  37.0  67000.0       Yes
+x_data:
+ [['france' 44.0 72000.0]
+ ['spain' 27.0 48000.0]
+ ['germany' 30.0 54000.0]
+ ['spain' 38.0 61000.0]
+ ['germany' 40.0 nan]
+ ['france' 35.0 58000.0]
+ ['spain' nan 52000.0]
+ ['france' 48.0 79000.0]
+ ['germany' 50.0 63000.0]
+ ['france' 37.0 67000.0]]
+y_data:
+ [['No']
+ ['Yes']
+ ['No']
+ ['No']
+ ['Yes']
+ ['Yes']
+ ['No']
+ ['Yes']
+ ['No']
+ ['Yes']]
+after missing values replaced:
+ [['france' 44.0 72000.0]
+ ['spain' 27.0 48000.0]
+ ['germany' 30.0 54000.0]
+ ['spain' 38.0 61000.0]
+ ['germany' 40.0 61555.555555555555]
+ ['france' 35.0 58000.0]
+ ['spain' 38.77777777777778 52000.0]
+ ['france' 48.0 79000.0]
+ ['germany' 50.0 63000.0]
+ ['france' 37.0 67000.0]]
+After label encoder(x):
+ [[0 44.0 72000.0]
+ [2 27.0 48000.0]
+ [1 30.0 54000.0]
+ [2 38.0 61000.0]
+ [1 40.0 61555.555555555555]
+ [0 35.0 58000.0]
+ [2 38.77777777777778 52000.0]
+ [0 48.0 79000.0]
+ [1 50.0 63000.0]
+ [0 37.0 67000.0]]
+After Dummy encoding(x):
+ [[1. 0. 0.]
+ [0. 0. 1.]
+ [0. 1. 0.]
+ [0. 0. 1.]
+ [0. 1. 0.]
+ [1. 0. 0.]
+ [0. 0. 1.]
+ [1. 0. 0.]
+ [0. 1. 0.]
+ [1. 0. 0.]]
+C:\PYTHON 3.10.1\lib\site-packages\sklearn\preprocessing\_label.py:114: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+After label encoder(y):
+ [0 1 0 0 1 1 0 1 0 1]
+x_train data:
+ [[0. 1. 0.]
+ [1. 0. 0.]
+ [0. 0. 1.]
+ [0. 0. 1.]
+ [1. 0. 0.]
+ [0. 0. 1.]
+ [1. 0. 0.]
+ [1. 0. 0.]]
+x_test data:
+ [[0. 1. 0.]
+ [0. 1. 0.]]
+y_train data:
+ [1 1 1 0 1 0 0 1]
+y_test data:
+ [[0. 1. 0.]
+ [0. 1. 0.]]
+after feature scaling x_train:
+ [[-1.          2.64575131 -0.77459667]
+ [ 1.         -0.37796447 -0.77459667]
+ [-1.         -0.37796447  1.29099445]
+ [-1.         -0.37796447  1.29099445]
+ [ 1.         -0.37796447 -0.77459667]
+ [-1.         -0.37796447  1.29099445]
+ [ 1.         -0.37796447 -0.77459667]
+ [ 1.         -0.37796447 -0.77459667]]
+after feature scaling x_test:
+ [[-1.          2.64575131 -0.77459667]
+ [-1.          2.64575131 -0.77459667]]
