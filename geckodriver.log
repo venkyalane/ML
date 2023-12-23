@@ -12,3 +12,276 @@ Read port: 58849
 DevTools listening on ws://127.0.0.1:58838/devtools/browser/d4b15ede-d052-4c6e-a608-c0a794bbdb46
 1702374200900	Marionette	INFO	Stopped listening on port 58849
 Dynamically enable window occlusion 1
+1702983126163	geckodriver	INFO	Listening on 127.0.0.1:55662
+1702983129293	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55663" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MOHAN\\AppData\\Local\\Temp\\rust_mozprofile6JwxQF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702983142219	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702983143095	Marionette	INFO	Listening on port 55676
+Read port: 55676
+WebDriver BiDi listening on ws://127.0.0.1:55663
+1702983155981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702983211877	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+DevTools listening on ws://127.0.0.1:55663/devtools/browser/90033821-0108-4454-971f-e21dbbeadeca
+console.error: services.settings: 
+  main/search-config-v2 Signature failed  InvalidSignatureError: Invalid content signature (main/search-config-v2) using 'remote-settings.content-signature.mozilla.org-2024-01-19-16-42-21.chain'
+console.error: services.settings: 
+  main/search-config-v2 local data was corrupted
+console.warn: services.settings: main/search-config-v2 Signature verified failed. Retry from scratch
+JavaScript error: chrome://mozapps/content/extensions/aboutaddons.js, line 483: TypeError: URL constructor: http://%(server)s/extensions-dummy/repositoryBrowseURL is not a valid URL.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 68: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 68: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 68: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 68: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 68: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 68: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 68: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 68: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+Extension error: TypeError: chrome.extension.sendMessage is not a function moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools.js 27
+[[Exception stack
+handleShown@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools.js:27:20
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:698:41
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.sys.mjs:2791:39
+]]
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:23:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:43:19
+fixupAndLoadURIString@resource://gre/modules/RemoteWebNavigation.sys.mjs:129:56
+fixupAndLoadURIString/<@chrome://global/content/elements/browser-custom-element.js:840:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:768:9
+fixupAndLoadURIString@chrome://global/content/elements/browser-custom-element.js:839:12
+createBrowserElement@chrome://browser/content/parent/ext-devtools-panels.js:86:18
+Extension error: TypeError: allNode is undefined moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js 104
+[[Exception stack
+showAllMatchingNode@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js:104:26
+@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js:266:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:698:41
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.sys.mjs:2791:39
+]]
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+Extension error: TypeError: allNode is undefined moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js 104
+[[Exception stack
+showAllMatchingNode@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js:104:26
+@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js:266:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:698:41
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.sys.mjs:2791:39
+]]
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: "Unable to find target with innerWindowId:6442450949"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript error: moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/extension/background.js, line 26: Error: Could not establish connection. Receiving end does not exist.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+Extension error: TypeError: allNode is undefined moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js 104
+[[Exception stack
+showAllMatchingNode@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js:104:26
+@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js:266:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:698:41
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.sys.mjs:2791:39
+]]
+Extension error: TypeError: allNode is undefined moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js 104
+[[Exception stack
+showAllMatchingNode@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js:104:26
+@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js:266:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:698:41
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.sys.mjs:2791:39
+]]
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=ASKXGp3_TYVWPW-V5RqvNgoarK4Sqx2icozMJy3PKvCxoC-DVSOSuzu0cAkL6Iwan6BE629XX-91pw&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1861442650%3A1702983658914029&theme=glif line 5 > injectedScript line 2 > eval line 1153 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Extension error: TypeError: allNode is undefined moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js 104
+[[Exception stack
+showAllMatchingNode@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js:104:26
+@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js:266:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:698:41
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.sys.mjs:2791:39
+]]
+Extension error: TypeError: allNode is undefined moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js 104
+[[Exception stack
+showAllMatchingNode@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js:104:26
+@moz-extension://e7c5ea41-1e55-4198-b89b-2c1a1cd3fd9d/devtools/devtools-script.js:266:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:698:41
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.sys.mjs:2791:39
+]]
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=ASKXGp3_TYVWPW-V5RqvNgoarK4Sqx2icozMJy3PKvCxoC-DVSOSuzu0cAkL6Iwan6BE629XX-91pw&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1861442650%3A1702983658914029&theme=glif line 5 > injectedScript line 2 > eval line 1153 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=ASKXGp3_TYVWPW-V5RqvNgoarK4Sqx2icozMJy3PKvCxoC-DVSOSuzu0cAkL6Iwan6BE629XX-91pw&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1861442650%3A1702983658914029&theme=glif line 5 > injectedScript line 2 > eval line 1153 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=ASKXGp3_TYVWPW-V5RqvNgoarK4Sqx2icozMJy3PKvCxoC-DVSOSuzu0cAkL6Iwan6BE629XX-91pw&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1861442650%3A1702983658914029&theme=glif line 5 > injectedScript line 2 > eval line 1153 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702984133200	Marionette	INFO	Stopped listening on port 55676
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs, line 303: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn1.watcher2
+Dynamically enable window occlusion 1
+console.error: "Exception when calling onAvailable handler" "Connection closed, pending request to server0.conn0.windowGlobal6442450950/animationsActor9, type getAnimationPlayersForNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nupdate@resource://devtools/client/inspector/animation/animation.js:733:38\nonTargetAvailable@resource://devtools/client/inspector/animation/animation.js:440:18\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:573:17\nquit@chrome://remote/content/shared/Browser.sys.mjs:94:22\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:2922:42\ndespatch@chrome://remote/content/marionette/server.sys.mjs:318:40\nexecute@chrome://remote/content/marionette/server.sys.mjs:289:16\nonPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20\nonPacket@chrome://remote/content/marionette/server.sys.mjs:263:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20\n" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442450950/animationsActor9, type getAnimationPlayersForNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nupdate@resource://devtools/client/inspector/animation/animation.js:733:38\nonTargetAvailable@resource://devtools/client/inspector/animation/animation.js:440:18\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:573:17\nquit@chrome://remote/content/shared/Browser.sys.mjs:94:22\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:2922:42\ndespatch@chrome://remote/content/marionette/server.sys.mjs:318:40\nexecute@chrome://remote/content/marionette/server.sys.mjs:289:16\nonPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20\nonPacket@chrome://remote/content/marionette/server.sys.mjs:263:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal6442450950/animationsActor9, type setWalkerActor failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+onTargetAvailable@resource://devtools/client/inspector/animation/animation.js:437:28
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:573:17
+quit@chrome://remote/content/shared/Browser.sys.mjs:94:22
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:2922:42
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+JavaScript error: resource://devtools/client/inspector/animation/animation.js, line 152: TypeError: this.inspector is null
+1702984156385	geckodriver	INFO	Listening on 127.0.0.1:56351
+1702984159394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56352" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MOHAN\\AppData\\Local\\Temp\\rust_mozprofileTvLK1J"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702984161982	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702984162183	Marionette	INFO	Listening on port 56359
+WebDriver BiDi listening on ws://127.0.0.1:56352
+Read port: 56359
+1702984163184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56352/devtools/browser/cb18d96e-a4c4-4c50-b13a-f1f4cd919bdc
+1702984192203	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: services.settings: 
+  main/search-config-v2 Signature failed  InvalidSignatureError: Invalid content signature (main/search-config-v2) using 'remote-settings.content-signature.mozilla.org-2024-01-19-16-42-21.chain'
+console.error: services.settings: 
+  main/search-config-v2 local data was corrupted
+console.warn: services.settings: main/search-config-v2 Signature verified failed. Retry from scratch
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=ASKXGp3PpPLCfuNjIqvJ84bYfgAD6xaPeWw2nvh7f7uU5Ov87iWNt-ky67L8BXicPlWAYZ0x6G-_&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-787878648%3A1702984207118573&theme=glif line 190 > injectedScript line 2 > eval line 1420 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript warning: https://addons.mozilla.org/static-frontend/amo-d3db3267d665d4eae04c.js, line 7: Script terminated by timeout at:
+oo/<@https://addons.mozilla.org/static-frontend/amo-d3db3267d665d4eae04c.js:7:5052
+t@https://addons.mozilla.org/static-frontend/amo-d3db3267d665d4eae04c.js:7:4912
+EventListener.handleEvent*ro@https://addons.mozilla.org/static-frontend/amo-d3db3267d665d4eae04c.js:7:4960
+So/<@https://addons.mozilla.org/static-frontend/amo-d3db3267d665d4eae04c.js:7:7769
+fo@https://addons.mozilla.org/static-frontend/amo-d3db3267d665d4eae04c.js:7:5712
+So@https://addons.mozilla.org/static-frontend/amo-d3db3267d665d4eae04c.js:7:7534
+@https://addons.mozilla.org/static-frontend/amo-d3db3267d665d4eae04c.js:8:759
+@https://addons.mozilla.org/static-frontend/amo-d3db3267d665d4eae04c.js:7:9283
+@https://addons.mozilla.org/static-frontend/amo-d3db3267d665d4eae04c.js:38:1721
+@https://addons.mozilla.org/static-frontend/amo-d3db3267d665d4eae04c.js:38:1724
+
+Extension error: TypeError: chrome.extension.sendMessage is not a function moz-extension://96bb27a0-6a80-4302-8d0c-5094147dafe2/devtools/devtools.js 27
+[[Exception stack
+handleShown@moz-extension://96bb27a0-6a80-4302-8d0c-5094147dafe2/devtools/devtools.js:27:20
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:698:41
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.sys.mjs:2791:39
+]]
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:23:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:43:19
+fixupAndLoadURIString@resource://gre/modules/RemoteWebNavigation.sys.mjs:129:56
+fixupAndLoadURIString/<@chrome://global/content/elements/browser-custom-element.js:840:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:768:9
+fixupAndLoadURIString@chrome://global/content/elements/browser-custom-element.js:839:12
+createBrowserElement@chrome://browser/content/parent/ext-devtools-panels.js:86:18
+Extension error: TypeError: allNode is undefined moz-extension://96bb27a0-6a80-4302-8d0c-5094147dafe2/devtools/devtools-script.js 104
+[[Exception stack
+showAllMatchingNode@moz-extension://96bb27a0-6a80-4302-8d0c-5094147dafe2/devtools/devtools-script.js:104:26
+@moz-extension://96bb27a0-6a80-4302-8d0c-5094147dafe2/devtools/devtools-script.js:266:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:698:41
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.sys.mjs:2791:39
+]]
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+Extension error: TypeError: allNode is undefined moz-extension://96bb27a0-6a80-4302-8d0c-5094147dafe2/devtools/devtools-script.js 104
+[[Exception stack
+showAllMatchingNode@moz-extension://96bb27a0-6a80-4302-8d0c-5094147dafe2/devtools/devtools-script.js:104:26
+@moz-extension://96bb27a0-6a80-4302-8d0c-5094147dafe2/devtools/devtools-script.js:266:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:698:41
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.sys.mjs:2791:39
+]]
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: "Tried to call unwatchFronts for the 'accessibility' type on an already destroyed front 'windowGlobalTarget'."
+console.error: "Unable to find target with innerWindowId:6442450950"
+console.error: "Unable to find target with innerWindowId:6442450950"
+console.error: "Unable to find target with innerWindowId:6442450950"
+console.error: "Unable to find target with innerWindowId:6442450950"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript error: moz-extension://96bb27a0-6a80-4302-8d0c-5094147dafe2/extension/background.js, line 26: Error: Could not establish connection. Receiving end does not exist.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowEntry=ServiceLogin&flowName=GlifWebSignIn&ifkv=ASKXGp32MHa33pGVXyV8VPaNhLLeGnfQ7jX9Dlg7zVD0DCcBh0a-DMXzeZ8JzRMG0ouMiFf4iP_-lg&rip=1&service=mail&theme=glif&dsh=S1040537444%3A1702984479748286 line 190 > injectedScript line 2 > eval line 6953 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1702984764833	Marionette	INFO	Stopped listening on port 56359
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs, line 303: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn1.watcher2
+Dynamically enable window occlusion 1
+console.error: "Exception when calling onAvailable handler" "Connection closed, pending request to server0.conn0.windowGlobal6442450957/animationsActor9, type getAnimationPlayersForNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nupdate@resource://devtools/client/inspector/animation/animation.js:733:38\nonTargetAvailable@resource://devtools/client/inspector/animation/animation.js:440:18\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:573:17\nquit@chrome://remote/content/shared/Browser.sys.mjs:94:22\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:2922:42\ndespatch@chrome://remote/content/marionette/server.sys.mjs:318:40\nexecute@chrome://remote/content/marionette/server.sys.mjs:289:16\nonPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20\nonPacket@chrome://remote/content/marionette/server.sys.mjs:263:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20\n" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442450957/animationsActor9, type getAnimationPlayersForNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nupdate@resource://devtools/client/inspector/animation/animation.js:733:38\nonTargetAvailable@resource://devtools/client/inspector/animation/animation.js:440:18\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:573:17\nquit@chrome://remote/content/shared/Browser.sys.mjs:94:22\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:2922:42\ndespatch@chrome://remote/content/marionette/server.sys.mjs:318:40\nexecute@chrome://remote/content/marionette/server.sys.mjs:289:16\nonPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20\nonPacket@chrome://remote/content/marionette/server.sys.mjs:263:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal6442450957/animationsActor9, type setWalkerActor failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+onTargetAvailable@resource://devtools/client/inspector/animation/animation.js:437:28
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:573:17
+quit@chrome://remote/content/shared/Browser.sys.mjs:94:22
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:2922:42
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+JavaScript error: resource://devtools/client/inspector/animation/animation.js, line 152: TypeError: this.inspector is null

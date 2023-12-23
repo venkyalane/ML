@@ -26,7 +26,7 @@ print(f"premium_of_age_{age} after validating our model: ",validating_premium)
 
 try:
     if predict_premium == validating_premium:
-        print("model perfectlly work....")
+        print("model perfectlly work....wel done...")
 
 except:
     print("something went wrong in training model, pls check model!!!!")
