@@ -1,0 +1,15 @@
+outlook,humidity,windy,play
+sunny,high,week,no
+sunny,high,strong,no
+overcast,high,week,yes
+rainy,high,week,yes
+rainy,normal,week,yes
+rainy,normal,strong,no
+overcast,normal,week,yes
+sunny,high,week,no
+sunny,normal,week,yes
+rainy,normal,week,yes
+sunny,normal,strong,yes
+overcast,high,strong,yes
+overcast,normal,week,yes
+rainy,high,strong,no
